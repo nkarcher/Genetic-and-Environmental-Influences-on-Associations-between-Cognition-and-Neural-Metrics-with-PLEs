@@ -508,7 +508,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 
@@ -537,7 +537,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 
@@ -563,7 +563,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 surveyfitmod1 <- lavaan.survey(lavaan.fit = fitgf_lgm_scons2, survey.design = groups)
@@ -588,7 +588,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 
@@ -613,7 +613,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 surveyfitmod1 <- lavaan.survey(lavaan.fit = fitgf_lgm_scons2, survey.design = groups)
@@ -642,7 +642,7 @@ diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
 
-fitULCS <- lavaan(ULCS, data=data_forlongdata50, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitULCS <- lavaan(ULCS, data=data_forlongdata50, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitULCS, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 
@@ -815,7 +815,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 
@@ -844,7 +844,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 
@@ -870,7 +870,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 surveyfitmod1 <- lavaan.survey(lavaan.fit = fitgf_lgm_scons2, survey.design = groups)
@@ -895,7 +895,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 
@@ -920,7 +920,7 @@ diff.g2.g1 := m2 - m1
 diff.g3.g1 := m3 - m1
 diff.g3.g2 := m3 - m2
 '
-fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE,  group.equal = c("loadings", "intercepts"), group="group3_newscore")
+fitgf_lgm_scons2 <- growth(gf_lgm_scons2, data=data, estimator='mlr', fixed.x=F, missing='fiml', meanstructure = TRUE, group="group3_newscore")
 summary(fitgf_lgm_scons2, fit.measures=T, standardized=T, rsquare=T)
 parameterEstimates(fitgf_lgm_scons2, boot.ci.type="bca.simple",level=0.95, ci=TRUE,standardized = FALSE,  output = "text") # Estimate CIs.
 surveyfitmod1 <- lavaan.survey(lavaan.fit = fitgf_lgm_scons2, survey.design = groups)
